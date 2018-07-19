@@ -11,7 +11,6 @@ int min_memory_size(vector<int> a)
 	{
 		size=2*size;
 	}
-
 	return size;
 }
 
