@@ -12,7 +12,7 @@ int eggDrop(int n, int k)
     if (n == 1)
         return k;
 
-    int min = INT_MAX, x, res;
+    int min=0, x, res=0;
 
     // Consider all droppings from 1st floor to kth floor and
     // return the minimum of these values plus 1.
